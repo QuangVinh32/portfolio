@@ -6,26 +6,21 @@ export const AboutSection = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary"> Me</span>
+          Giới thiệu về<span className="text-primary"> tôi</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Nhà phát triển web đam mê & Người sáng tạo công nghệ
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Với hơn 2 năm kinh nghiệm trong lĩnh vực phát triển web, tôi chuyên tạo ra các ứng dụng web có khả năng phản hồi, dễ truy cập và hiệu suất cao bằng các công nghệ hiện đại.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Tôi đam mê tạo ra các giải pháp tinh tế cho các vấn đề phức tạp và không ngừng học hỏi các công nghệ và kỹ thuật mới để luôn đi đầu trong bối cảnh web luôn thay đổi.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -52,8 +47,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                  Tạo các trang web và ứng dụng web có khả năng phản hồi cao với các nền tảng hiện đại.
                   </p>
                 </div>
               </div>
@@ -66,8 +60,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                  Thiết kế giao diện người dùng trực quan và trải nghiệm người dùng liền mạch.
                   </p>
                 </div>
               </div>
@@ -81,8 +74,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Chỉ đạo các dự án từ khâu hình thành đến khi hoàn thành bằng phương pháp linh hoạt.
                   </p>
                 </div>
               </div>

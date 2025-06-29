@@ -3,11 +3,13 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navItems = [
-  { name: "Home", href: "#hero" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Trang chủ", href: "#hero" },
+  { name: "Giới thiệu Về tôi", href: "#about" },
+  { name: "Kỹ năng", href: "#skills" },
+  { name: "Dự án", href: "#projects" },
+  { name: "Học vấn", href: "#education" },
+  { name: "Liên hệ", href: "#contact" },
+
 ];
 
 export const Navbar = () => {
@@ -35,7 +37,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
+            <span className="text-glow text-foreground"> CV </span>{" "}
             Portfolio
           </span>
         </a>
